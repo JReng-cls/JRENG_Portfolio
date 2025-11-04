@@ -1,0 +1,65 @@
+title: "Jake Rogers Engineering Portfolio"
+email: ""
+description: "Portfolio of engineering projects by Jake Rogers — Advanced Placement Networking/Advanced Topics in Engineering."
+
+
+# Use Minimal Mistakes remote theme (sidebar-capable, well-documented)
+remote_theme: "mmistakes/minimal-mistakes"
+
+plugins:
+	- jekyll-feed
+	- jekyll-seo-tag
+	- jekyll-sitemap
+	- jekyll-archives
+
+markdown: kramdown
+highlighter: rouge
+
+
+
+# Navigation - update titles/URLs as you add pages
+nav:
+	- title: "Home"
+		url: "/"
+	- title: "Projects"
+		url: "/projects/"
+	- title: "About"
+		url: "/about/"
+	- title: "Contact"
+		url: "/contact/"
+
+# Header / visual defaults
+logo: "/assets/images/logo.png" # small logo used in header/navigation
+favicon: "/assets/images/favicon.ico"
+header:
+	image: "/assets/images/header.jpg"
+	overlay_color: "rgba(0,0,0,0.35)"
+
+# Author / social
+author:
+	name: "Jake Rogers"
+	avatar: "/assets/images/avatar.png"
+	bio: "Engineering Student."
+
+
+
+# Repository info (used by some themes for edit links)
+repository: "JReng-cls/JRENG_Portfolio"
+
+
+
+# Exclude files and folders from the site build
+exclude:
+	- Gemfile
+	- Gemfile.lock
+	- node_modules
+	- vendor
+
+# Pagination (if you add a projects index that paginates)
+paginate: 10
+
+# Helpful notes (customize before publishing):
+# - Replace `url` and `baseurl` with your GitHub Pages values when publishing.
+# - Add images in `assets/images/` (logo.png, avatar.png, header.jpg, favicon.ico).
+# - To use the Minimal Mistakes theme with GitHub Pages, either enable GitHub Pages' built-in gem support
+#   or add a Gemfile with `gem "minimal-mistakes-jekyll"` and publish from the `gh-pages`/`main` branch.
